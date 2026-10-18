@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int qty, salesReps;
+    float unitsEach;
+
+    cout << "Enter quantity: ";
+    cin >> qty;
+
+    cout << "Enter number of sales representatives: ";
+    cin >> salesReps;
+
+    unitsEach = static_cast<float>(qty) / salesReps;
+
+    cout << "Units each = " << unitsEach << endl;
+
+    return 0;
+}
